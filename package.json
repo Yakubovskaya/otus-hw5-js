@@ -1,0 +1,19 @@
+{
+  "name": "otus-homework5",
+  "version": "1.0.0",
+  "description": "https://otus.ru/lessons/javascript-basic/?int_source=courses_catalog&int_term=programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakubovskaya/Otus-Homework5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yakubovskaya/Otus-Homework5/issues"
+  },
+  "homepage": "https://github.com/Yakubovskaya/Otus-Homework5#readme"
+}
