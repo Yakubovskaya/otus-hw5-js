@@ -4,7 +4,7 @@
   "description": "https://otus.ru/lessons/javascript-basic/?int_source=courses_catalog&int_term=programming",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
