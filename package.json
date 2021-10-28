@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/Yakubovskaya/Otus-Homework5#readme",
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
     "jest": "^27.3.1"
   }
 }
