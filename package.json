@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Yakubovskaya/Otus-Homework5/issues"
   },
-  "homepage": "https://github.com/Yakubovskaya/Otus-Homework5#readme"
+  "homepage": "https://github.com/Yakubovskaya/Otus-Homework5#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1"
+  }
 }
