@@ -1,10 +1,7 @@
-import { sum, prod } from "./task1";
+import { sumAndProd } from "./task1";
 
 describe("sum & prod", () => {
-  it("returns 13 for 5 + 8", () => {
-    expect(sum).toBe(13);
-  });
-  it("returns 40 for 5 * 8", () => {
-    expect(prod).toBe(40);
+  it("returns 13 for 5 + 8 and 40 for 5 * 8", () => {
+    expect(sumAndProd(5, 8)).toBe("13,40");
   });
 });
