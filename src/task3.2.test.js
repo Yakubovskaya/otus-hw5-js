@@ -1,4 +1,4 @@
-import { getMultiTable } from "./task8";
+import { getMultiTable } from "./task3.2";
 
 describe("getMultiTable", () => {
   it("get multiplication table by 7", () => {

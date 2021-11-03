@@ -1,4 +1,4 @@
-import { getArithm } from "./task9";
+import { getArithm } from "./task3.3";
 
 describe("getArithm", () => {
   it("returns the arithmetic mean of odd numbers from 1 to 265", () => {

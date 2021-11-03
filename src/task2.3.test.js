@@ -1,4 +1,4 @@
-import { circleInSquare } from "./task6";
+import { circleInSquare } from "./task2.3";
 
 describe("circleInSquare", () => {
   it("returns true for 34 & 50", () => {

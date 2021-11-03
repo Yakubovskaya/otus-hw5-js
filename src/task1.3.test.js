@@ -1,4 +1,4 @@
-import { sumOfNum } from "./task3";
+import { sumOfNum } from "./task1.3";
 
 describe("sum of the numbers", () => {
   it("returns sum of the numbers entered by user", () => {

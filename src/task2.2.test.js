@@ -1,4 +1,4 @@
-import { getMonth } from "./task5";
+import { getMonth } from "./task2.2";
 
 describe("getMonth", () => {
   it("returns 'May' if User enter 5", () => {
