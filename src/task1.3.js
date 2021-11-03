@@ -3,6 +3,6 @@ export function sumOfNum() {
   const sum = num
     .split("")
     .map((el) => Number(el))
-    .reduce((curr, pre) => curr + pre);
+    .reduce((pre, curr) => pre + curr);
   return sum;
 }
