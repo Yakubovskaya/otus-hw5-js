@@ -16,6 +16,7 @@ module.exports = {
       {
         ignoreComments: true,
         ignoreStrings: true,
+        ignoreRegExpLiterals: true,
       },
     ],
   },
