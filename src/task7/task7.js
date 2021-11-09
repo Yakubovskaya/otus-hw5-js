@@ -14,21 +14,21 @@ export function createParagraphs(el) {
   input.addEventListener("input", () => {
     button.hidden = false;
   });
-  button.addEventListener("click", ButtonClick);
+  button.addEventListener("click", buttonClick);
 }
 
-function ButtonClick() {
-  AddParagraph();
+function buttonClick() {
+  addParagraph();
   clearInput();
-  DeleteParagraph();
+  deleteParagraph();
 }
 
-function AddParagraph() {
+function addParagraph() {
   const input = document.querySelector("input");
   const parent = document.querySelector(".parent");
-  const NewParagraph = document.createElement("p");
-  NewParagraph.innerHTML = input.value;
-  parent.append(NewParagraph);
+  const newParagraph = document.createElement("p");
+  newParagraph.innerHTML = input.value;
+  parent.append(newParagraph);
 }
 function clearInput() {
   const input = document.querySelector("input");
@@ -36,7 +36,7 @@ function clearInput() {
   input.value = "";
   button.hidden = true;
 }
-function DeleteParagraph() {
+function deleteParagraph() {
   const paragraphs = document.querySelectorAll("p");
   if (paragraphs.length > 5) {
     paragraphs[0].remove();
