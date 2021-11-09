@@ -19,6 +19,18 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
+    "no-param-reassign": [
+      "error",
+      {
+        props: false,
+      },
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        functions: false,
+      },
+    ],
   },
   plugins: ["jest"],
 };
