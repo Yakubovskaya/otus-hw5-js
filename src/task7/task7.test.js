@@ -8,7 +8,7 @@ describe("createParagraphs", () => {
     createParagraphs(el);
   });
   afterEach(() => {
-    document.querySelector("html").innerHTML = "";
+    document.querySelector("html").innerHTML = null;
   });
   it("create basic markup", () => {
     expect(el.querySelector("input")).toBeTruthy();
