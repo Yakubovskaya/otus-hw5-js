@@ -10,6 +10,8 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    "no-alert": "off",
+    "no-console": "off",
     "import/prefer-default-export": "off",
     "max-len": [
       "error",

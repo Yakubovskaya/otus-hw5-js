@@ -12,7 +12,7 @@ export function createParagraphs(el) {
   const button = el.querySelector("button");
 
   input.addEventListener("input", () => {
-    button.hidden = false;
+    button.hidden = !input.value;
   });
   button.addEventListener("click", buttonClick);
 }

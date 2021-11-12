@@ -7,4 +7,7 @@ describe("isRightTriangle", () => {
   it("returns 'Этот треугольник не прямоугольный'' ", () => {
     expect(isRightTriangle(2, 6, 10)).toBe("Этот треугольник не прямоугольный");
   });
+  it("returns 'Этот треугольник прямоугольный'", () => {
+    expect(isRightTriangle(3, 5, 4)).toBe("Этот треугольник прямоугольный");
+  });
 });
