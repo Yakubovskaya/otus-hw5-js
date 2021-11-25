@@ -1,0 +1,42 @@
+{
+  "name": "otus-homework5",
+  "version": "1.0.0",
+  "description": "https://otus.ru/lessons/javascript-basic/?int_source=courses_catalog&int_term=programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakubovskaya/Otus-Homework5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yakubovskaya/Otus-Homework5/issues"
+  },
+  "homepage": "https://github.com/Yakubovskaya/Otus-Homework5#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "prettier": "2.4.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,yml,html}": "prettier --write"
+  }
+}
